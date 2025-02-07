@@ -18,7 +18,7 @@ Get up and running with PDF Toolbox in a few easy steps:
 
 *   **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/pdf-toolbox.git](https://github.com/yourusername/pdf-toolbox.git)
+    git clone https://github.com/Asad-Ali-Rana/PDF-ToolBox.git
     cd pdf-toolbox
     ```
 *   **Create a virtual environment (recommended):**
@@ -80,7 +80,7 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 For inquiries, suggestions, or feedback, please contact Muhammad Asad:
 
 *   Email: asad12334ali@gmail.com
-*   GitHub: [https://github.com/your-github-username](https://github.com/your-github-username)
+*   GitHub: [https://github.com/Asad-Ali-Rana](https://github.com/Asad-Ali-Rana)
 
 ## 7. Acknowledgments 🙏
 
