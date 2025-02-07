@@ -53,7 +53,7 @@ Using PDF Toolbox is straightforward:
 
 ## How To use PDF ToolBox?    
 
-[![Watch the video To Learn How to Use PDF ToolBox?](assets/Thumbnail.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video To Learn How to Use PDF ToolBox?](assets/Thumbnail.png)](https://vimeo.com/1054559283?share=copy#t=0)
 
 ## 3. Features ✨
 
