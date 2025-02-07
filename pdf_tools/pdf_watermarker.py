@@ -25,9 +25,7 @@ def resize_image(image_file):
         resized_image = uploaded_image.resize((200, 200))
 
         image_memory = io.BytesIO()
-        upload_image_name = str(image_file.name)
-        image_extension = upload_image_name.split(".")[-1]
-        resized_image.save(image_memory, format=image_extension)
+        resized_image.save(image_memory, format="pdf")
 
         pdf_memory = io.BytesIO()
         converted_pdf_data = img2pdf.convert(image_memory.getvalue())
@@ -107,8 +105,7 @@ def apply_watermark_or_stamp():
     """)
     try:
         option_selection = st.selectbox("Select an Option: ", options=["Stamp on PDF", "Use Watermark"])
-        supported_image_types = (".png", ".jpg", ".jpeg", ".ico")
-        image_upload = st.file_uploader("Upload Image for Stamp or Watermark: ", type=supported_image_types)       
+        image_upload = st.file_uploader("Upload Image for Stamp or Watermark: ", type=".png")       
         st.info("**Upload an image and a PDF to start customizing your document.**")
         if image_upload:
             pdf_data = resize_image(image_upload)
