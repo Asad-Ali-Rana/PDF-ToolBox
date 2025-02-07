@@ -51,6 +51,10 @@ Using PDF Toolbox is straightforward:
 
 *   **Visual Guide:** A usage video is available in the `assets` folder.
 
+## How To use PDF ToolBox?    
+
+[![Watch the video To Learn How to Use PDF ToolBox?](assets/Thumbnail.png)](https://youtu.be/vt5fpE0bzSY)
+
 ## 3. Features ✨
 
 PDF Toolbox boasts a rich set of features:
