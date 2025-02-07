@@ -132,7 +132,8 @@ def apply_watermark_or_stamp():
                     with st.spinner("Working"):
                         is_stamp = option_selection == "Stamp on PDF"
                         load_watermark_stamp(apply_as_stamp=is_stamp, pdf_stamp=pdf_data, pdf_file=pdf_file_path)
-
+                        st.rerun()
+                        
     except Exception as main_error:
         st.error(f"Something went wrong in apply_watermark_or_stamp: {main_error}")
 
