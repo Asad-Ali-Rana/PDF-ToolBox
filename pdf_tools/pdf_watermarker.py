@@ -25,7 +25,7 @@ def resize_image(image_file):
         resized_image = uploaded_image.resize((200, 200))
 
         image_memory = io.BytesIO()
-        resized_image.save(image_memory, format="pdf")
+        resized_image.save(image_memory, format="png")
 
         pdf_memory = io.BytesIO()
         converted_pdf_data = img2pdf.convert(image_memory.getvalue())
