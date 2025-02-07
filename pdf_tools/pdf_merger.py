@@ -37,6 +37,10 @@ def combine_pdfs():
         )
 
         if uploaded_files:
+            if len(uploaded_files) >= 2:
+                pass
+            else:
+                st.info("**Upload Atleast two files for merging**")
             # Initialize session state for the merging queue if it doesn't exist
             if "merging_queue" not in st.session_state:
                 st.session_state.merging_queue = []
