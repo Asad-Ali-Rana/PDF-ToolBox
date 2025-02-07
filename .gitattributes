@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.mp4 filter=lfs diff=lfs merge=lfs
+Lib/* filter=lfs diff=lfs merge=lfs  # If you have large files in a 'data' directory
