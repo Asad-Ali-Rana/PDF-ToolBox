@@ -2,7 +2,7 @@ import streamlit as st
 
 def welcome():
     st.write(
-        '<h1 style="color:white;">🌟 Welcome to <span style="color:red;">PDF</span> ToolBox 🌟</h1>',
+        '<h1 style="color:white;">Welcome to <span style="color:red;">PDF</span> ToolBox</h1>',
         unsafe_allow_html=True
     )
     WELCOME_TEXT = """
