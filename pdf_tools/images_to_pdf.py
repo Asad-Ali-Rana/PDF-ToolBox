@@ -50,12 +50,13 @@ def convert_multiple_images_to_pdf():
         if start_button:
 
             try:
-                converted_pdf_data = img2pdf.convert(image_file_paths,rotation=img2pdf.Rotation.ifvalid)
-                image_file_paths.clear()
-                st.success("PDF created successfully! 👏")
-                st.download_button("Download PDF 💾", data=converted_pdf_data,
-                                    file_name=f"image.pdf",
-                                    mime="application/pdf")
+                with st.spinner("Converting"):
+                    converted_pdf_data = img2pdf.convert(image_file_paths,rotation=img2pdf.Rotation.ifvalid)
+                    image_file_paths.clear()
+                    st.success("PDF created successfully! 👏")
+                    st.download_button("Download PDF 💾", data=converted_pdf_data,
+                                        file_name=f"image.pdf",
+                                        mime="application/pdf")
                 if st.button("❌ Clear Queue!"):
                     image_file_paths.clear()
                     st.rerun()
