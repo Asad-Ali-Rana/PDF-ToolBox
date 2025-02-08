@@ -50,7 +50,7 @@ def convert_multiple_images_to_pdf():
         if start_button:
 
             try:
-                converted_pdf_data = img2pdf.convert(image_file_paths)
+                converted_pdf_data = img2pdf.convert(image_file_paths,rotation=img2pdf.Rotation.ifvalid)
                 image_file_paths.clear()
                 st.success("PDF created successfully! 👏")
                 st.download_button("Download PDF 💾", data=converted_pdf_data,
