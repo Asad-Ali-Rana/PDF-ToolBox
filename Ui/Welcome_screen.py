@@ -31,19 +31,13 @@ def welcome():
     - Effortlessly unlock password-protected PDFs by providing the correct password.  
     - Remove existing encryption for easier access.  
 
-    7. **📄 Word to PDF**  
-    - Turn your Word documents into secure PDFs with our trusted tool.  
-    
-    8. **📄 PDF to Word**  
-    - Extract content from PDFs with ease and convert it back into Word files.  
-
-    9. **💧 Stamp & Watermark**  
+    7. **💧 Stamp & Watermark**  
     - Add personalized text or image watermarks to your PDFs for branding or security.  
     
-    10. **✏️ Edit Metadata**   
+    8. **✏️ Edit Metadata**   
     - **Edit Metadata:** Update or correct metadata information for better organization.  
 
-    11. **🖼️ Image to PDF**  
+    9. **🖼️ Image to PDF**  
     - Transform image files into professional PDFs in seconds.  
 
     ---
